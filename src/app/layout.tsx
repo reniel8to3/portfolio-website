@@ -48,7 +48,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${caveat.variable} scroll-smooth`}
     >
-      <body className="min-h-screen bg-[#32363b] text-[#222222] antialiased selection:bg-[#F686BD] selection:text-white">
+      <body className="min-h-screen bg-[#F5E8F5] text-[#222222] antialiased selection:bg-[#F686BD] selection:text-white">
         {children}
       </body>
     </html>
