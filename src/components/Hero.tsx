@@ -1,6 +1,6 @@
 'use client';
 
-import { Sparkles, Compass, Target, Flower2, ArrowDownRight, ArrowUpRight, ArrowRight, User } from 'lucide-react';
+import { Database, Cpu, Sparkles, LineChart, User, ArrowRight } from 'lucide-react';
 import { portfolioData } from '@/data/portfolioData';
 
 export default function Hero() {
@@ -20,19 +20,19 @@ export default function Hero() {
 
         {/* Center Name Box & Tape Stickers */}
         <div className="relative max-w-xl mx-auto mb-16 pt-6 pb-8 px-4">
-          {/* Top Left Washi Tape: "MADE THINGS" */}
-          <div className="absolute -top-3 left-4 sm:left-12 z-20 rotate-[-4deg]">
+          {/* Top Left Washi Tape: "SCALABLE PIPELINES" */}
+          <div className="absolute -top-3 left-4 sm:left-10 z-20 rotate-[-4deg]">
             <div className="px-3.5 py-1 bg-[#D8F3DC] border border-[#74C69D] text-[#1B4332] text-[11px] font-black uppercase tracking-wider rounded-md shadow-xs flex items-center gap-1.5">
-              <Sparkles className="w-3 h-3 text-[#2D6A4F]" />
-              <span>MADE THINGS</span>
+              <Database className="w-3 h-3 text-[#2D6A4F]" />
+              <span>SCALABLE PIPELINES</span>
             </div>
           </div>
 
-          {/* Top Right Washi Tape: "SWEAT THE DETAILS" */}
-          <div className="absolute -top-3 right-4 sm:right-12 z-20 rotate-[3deg]">
+          {/* Top Right Washi Tape: "SWEAT THE LATENCY" */}
+          <div className="absolute -top-3 right-4 sm:right-10 z-20 rotate-[3deg]">
             <div className="px-3.5 py-1 bg-[#FEF08A] border border-[#FACC15] text-[#713F12] text-[11px] font-black uppercase tracking-wider rounded-md shadow-xs flex items-center gap-1.5">
-              <Compass className="w-3 h-3 text-[#854D0E]" />
-              <span>SWEAT THE DETAILS</span>
+              <Cpu className="w-3 h-3 text-[#854D0E]" />
+              <span>SWEAT THE LATENCY</span>
             </div>
           </div>
 
@@ -46,19 +46,19 @@ export default function Hero() {
             </h1>
           </div>
 
-          {/* Bottom Left Sticky Label with Arrow: "Product Designer" */}
-          <div className="absolute -bottom-5 left-2 sm:left-8 z-20 flex items-center gap-2 rotate-[-2deg]">
+          {/* Bottom Left Sticky Label with Arrow: "Computer Engineering Grad" */}
+          <div className="absolute -bottom-5 left-1 sm:left-6 z-20 flex items-center gap-1.5 rotate-[-2deg]">
             <div className="px-3 py-1 bg-[#FED7AA] border border-[#FB923C] text-[#7C2D12] text-xs font-bold rounded-sm shadow-xs font-handwriting text-base">
-              {personal.role}
+              Computer Engineering Grad
             </div>
             <span className="font-handwriting text-lg text-[#1f2328] hidden sm:inline-block">↗</span>
           </div>
 
-          {/* Bottom Right Sticky Label with Arrow: "Location" */}
-          <div className="absolute -bottom-5 right-2 sm:right-8 z-20 flex items-center gap-2 rotate-[2deg]">
+          {/* Bottom Right Sticky Label with Arrow: "Big Data Analytics Spec." */}
+          <div className="absolute -bottom-5 right-1 sm:right-6 z-20 flex items-center gap-1.5 rotate-[2deg]">
             <span className="font-handwriting text-lg text-[#1f2328] hidden sm:inline-block">↖</span>
             <div className="px-3 py-1 bg-[#BAE6FD] border border-[#38BDF8] text-[#0C4A6E] text-xs font-bold rounded-sm shadow-xs font-handwriting text-base">
-              {personal.about.location}
+              Big Data Analytics Spec.
             </div>
           </div>
 
@@ -70,20 +70,20 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Floating Left Circular Avatar Placeholder */}
+          {/* Floating Left Circular Hardware/Data Chip Placeholder */}
           <div className="hidden lg:block absolute -left-20 top-1/2 -translate-y-1/2">
             <div className="w-14 h-14 rounded-full border-2 border-[#1f2328] bg-white p-0.5 shadow-sm overflow-hidden flex items-center justify-center bg-gradient-to-br from-[#F5D2E4] to-[#F5E8F5]">
               <div className="w-full h-full rounded-full bg-[#FE5D9F]/20 flex items-center justify-center text-[#FE5D9F]">
-                <User className="w-6 h-6" />
+                <Cpu className="w-6 h-6" />
               </div>
             </div>
           </div>
 
-          {/* Floating Right Circular Avatar Placeholder */}
+          {/* Floating Right Circular Chart/Data Placeholder */}
           <div className="hidden lg:block absolute -right-20 top-1/2 -translate-y-1/2">
             <div className="w-14 h-14 rounded-full border-2 border-[#1f2328] bg-white p-0.5 shadow-sm overflow-hidden flex items-center justify-center bg-gradient-to-br from-[#FEF08A] to-[#FED7AA]">
               <div className="w-full h-full rounded-full bg-[#F59E0B]/20 flex items-center justify-center text-[#D97706]">
-                <User className="w-6 h-6" />
+                <LineChart className="w-6 h-6" />
               </div>
             </div>
           </div>
@@ -92,13 +92,13 @@ export default function Hero() {
         {/* Big Catchphrase Statement with Embedded Vector Icons */}
         <div className="text-center mt-12 mb-8 max-w-2xl mx-auto">
           <p className="text-2xl sm:text-4xl md:text-5xl font-black text-[#1f2328] leading-tight tracking-tight">
-            I design software that{' '}
+            I engineer data systems that{' '}
             <span className="inline-flex items-center align-middle mx-1 p-1 rounded-full bg-[#ECFDF5] border border-[#10B981] text-[#059669]">
-              <Target className="w-5 h-5 sm:w-7 sm:h-7" />
+              <Database className="w-5 h-5 sm:w-7 sm:h-7" />
             </span>{' '}
-            gets out of your way.{' '}
+            turn raw chaos into clarity.{' '}
             <span className="inline-flex items-center align-middle mx-1 p-1 rounded-full bg-[#FFF0F7] border border-[#FE5D9F] text-[#FE5D9F]">
-              <Flower2 className="w-5 h-5 sm:w-7 sm:h-7" />
+              <Cpu className="w-5 h-5 sm:w-7 sm:h-7" />
             </span>
           </p>
         </div>
