@@ -147,9 +147,9 @@ export default function Projects() {
                           <div className="flex items-center justify-between text-[10px] font-mono opacity-80 border-b border-white/10 pb-2">
                             <span className="flex items-center gap-1.5">
                               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                              <span>CLUSTER: ACTIVE (8 NODES)</span>
+                              <span>LOREM: DOLOR (00)</span>
                             </span>
-                            <span className="text-cyan-400">THROUGHPUT: 12.4K MSG/S</span>
+                            <span className="text-cyan-400">IPSUM: CONSECTETUR</span>
                           </div>
 
                           {/* Mock Visual Content */}
@@ -162,14 +162,14 @@ export default function Projects() {
                             </span>
                             <div className="text-[11px] font-mono text-zinc-400 mt-1 flex items-center justify-center gap-1">
                               <Activity className="w-3 h-3 text-emerald-400" />
-                              <span>80ms P99 Distributed Latency</span>
+                              <span>Lorem ipsum dolor sit amet</span>
                             </div>
                           </div>
 
                           {/* Mock Footer Balance Bar */}
                           <div className="pt-2 border-t border-white/10 flex items-center justify-between text-[11px] font-mono">
-                            <span className="text-zinc-400">Format: Parquet Lake</span>
-                            <span className="font-bold text-emerald-400">Zero Loss (100%)</span>
+                            <span className="text-zinc-400">Lorem • Ipsum</span>
+                            <span className="font-bold text-emerald-400">Dolor: 100%</span>
                           </div>
                         </div>
                       </div>

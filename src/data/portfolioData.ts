@@ -95,58 +95,58 @@ export const portfolioData: PortfolioData = {
   projects: [
     {
       id: "project-01",
-      title: "StreamPulse: Real-Time Market Telemetry Pipeline",
+      title: "Lorem Ipsum Dolor: Consectetur Adipiscing",
       category: "Full Stack",
       featured: true,
-      description: "Distributed stream ingestion architecture processing 10,000+ financial market events per second with real-time anomaly detection and sub-second dashboards.",
-      tags: ["Apache Kafka", "PySpark", "PostgreSQL", "Docker", "Grafana"],
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      tags: ["Lorem", "Ipsum", "Dolor", "Consectetur", "Adipiscing"],
       highlights: [
-        "Ingested and transformed continuous event streams with sub-80ms pipeline latency",
-        "Configured resilient Kafka consumer groups with zero event drop guarantees",
-        "Automated containerized deployment using Docker Compose"
+        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       ],
       githubUrl: "https://github.com",
       liveUrl: "https://vercel.com"
     },
     {
       id: "project-02",
-      title: "OmniLake: Automated Data Lakehouse & ETL Engine",
+      title: "Vestibulum Ante Ipsum: Primis in Faucibus",
       category: "Backend",
       featured: true,
-      description: "Cloud-native data pipeline orchestrating raw transactional data ingestion into partitioned Parquet lakehouses with automated data quality checks.",
-      tags: ["Apache Airflow", "AWS S3", "PySpark", "Snowflake", "Python"],
+      description: "Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida.",
+      tags: ["Vestibulum", "Curabitur", "Gravida", "Pharetra"],
       highlights: [
-        "Built DAG workflows handling multi-source schema evolution and backfills",
-        "Reduced query times by 45% through columnar indexing and partition pruning",
-        "Implemented Great Expectations assertions for automated data validation"
+        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+        "Nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat.",
+        "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
       ],
       githubUrl: "https://github.com",
       liveUrl: "https://vercel.com"
     },
     {
       id: "project-03",
-      title: "Predictive Analytics & Customer Churn Modeling",
+      title: "Aenean Commodo Ligula: Eget Dolor Aenean",
       category: "AI / ML",
       featured: false,
-      description: "End-to-end machine learning pipeline analyzing behavioral patterns to forecast user retention with automated hyperparameter optimization.",
-      tags: ["Python", "Scikit-Learn", "FastAPI", "Pandas", "Tableau"],
+      description: "Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.",
+      tags: ["Aenean", "Commodo", "Imperdiet", "Ultricies"],
       highlights: [
-        "Achieved 89.4% ROC-AUC score across 500,000+ historical records",
-        "Deployed low-latency inference endpoint using FastAPI and Docker"
+        "Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero.",
+        "Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
       ],
       githubUrl: "https://github.com",
       liveUrl: "https://vercel.com"
     },
     {
       id: "project-04",
-      title: "ComputeGrid: Parallel Columnar Query Engine",
+      title: "Donec Pede Justo: Fringilla Vel Aliquet",
       category: "Other",
       featured: false,
-      description: "Multi-threaded analytical query evaluation engine built in C++ leveraging SIMD vectorization and cache-conscious columnar layouts.",
-      tags: ["C++", "OpenMP", "Computer Architecture", "Benchmarking"],
+      description: "Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.",
+      tags: ["Donec", "Fringilla", "Elementum", "Vulputate"],
       highlights: [
-        "Accelerated aggregation queries 3.8x compared to standard row-oriented evaluations",
-        "Profiled cache misses and branch mispredictions with Linux Perf"
+        "Phasellus viverra nulla ut metus varius laoreet quisque rutrum.",
+        "Curabitur ullamcorper ultricies nisi nam eget dui etiam rhoncus."
       ],
       githubUrl: "https://github.com",
       liveUrl: "https://vercel.com"
