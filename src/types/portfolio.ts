@@ -70,15 +70,32 @@ export interface PortfolioData {
   personal: {
     name: string;
     role: string;
+    specialization?: string;
     tagline: string;
     shortBio: string;
+    heroStickers?: {
+      leftTag: string;
+      rightTag: string;
+    };
     about: {
+      subheader?: string;
       paragraphs: string[];
       location: string;
       email: string;
       availability: string;
       yearsOfExperience: string;
       projectsCompleted: string;
+      photoLeftCaption?: string;
+      photoLeftDate?: string;
+      photoRightCaption?: string;
+      photoRightDate?: string;
+    };
+    stampBadges?: {
+      label: string;
+      iconType?: 'database' | 'cpu' | 'branch' | 'chart';
+    }[];
+    contactSection?: {
+      responseTimeNote: string;
     };
     socials: SocialLink[];
     resumeUrl: string;

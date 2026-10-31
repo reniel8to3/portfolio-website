@@ -3,20 +3,39 @@ import { PortfolioData } from '@/types/portfolio';
 export const portfolioData: PortfolioData = {
   personal: {
     name: "[YOUR NAME]",
-    role: "Computer Engineer • Big Data Analytics Specialist",
-    tagline: "I engineer distributed systems and pipelines that turn raw data into actionable clarity.",
-    shortBio: "Computer Engineering graduate specialized in Big Data Analytics, high-throughput distributed architectures, and end-to-end data pipelines.",
+    role: "[YOUR ROLE / DEGREE, e.g. Computer Engineering Grad]",
+    specialization: "[YOUR SPECIALIZATION, e.g. Big Data Analytics Spec.]",
+    tagline: "[I engineer data systems that turn raw chaos into clarity.]",
+    shortBio: "[I care about the small details, the edge cases everyone forgets, and shipping work that genuinely makes someone's day easier.]",
+    heroStickers: {
+      leftTag: "[TOP LEFT TAG / HIGHLIGHT 1]",
+      rightTag: "[TOP RIGHT TAG / HIGHLIGHT 2]"
+    },
     about: {
+      subheader: "[what's up / about subheading]",
       paragraphs: [
-        "I'm a Computer Engineering graduate with a deep fascination for high-throughput distributed systems, big data architectures, and analytical modeling. My foundation bridges hardware-level computing with large-scale cloud data processing.",
-        "I care about low latency, reliable ETL pipelines, the nuanced edge cases in data cleansing everyone overlooks, and engineering infrastructure that transforms millions of unstructured events into genuine business insight.",
-        "When I'm not tuning Spark jobs or benchmarking distributed databases, I enjoy exploring cloud infrastructure, hacking on open-source tools, and collaborating on impactful technical challenges."
+        "[Paragraph 1: Tell your story here. Share how you got started in technology and design, what sparks your curiosity, and what drives you.]",
+        "[Paragraph 2: Describe your creative process or technical interests. What kind of problems do you love solving? What tools do you adore working with?]",
+        "[Paragraph 3: Share your current adventures, hobbies, or what you are excited to learn next. Add a warm invite to connect.]"
       ],
-      location: "[Your City, Country / Open to Relocation]",
+      location: "[YOUR LOCATION / RELOCATION]",
       email: "hello.yourname@example.com",
-      availability: "OPEN TO FULL-TIME DATA & SOFTWARE ROLES",
-      yearsOfExperience: "Fresh Graduate",
-      projectsCompleted: "8+"
+      availability: "[YOUR AVAILABILITY / STATUS, e.g. OPEN TO NEW ROLES]",
+      yearsOfExperience: "[X]+",
+      projectsCompleted: "[X]+",
+      photoLeftCaption: "[PHOTO 1 CAPTION]",
+      photoLeftDate: "[PHOTO 1 DATE/SUBTITLE]",
+      photoRightCaption: "[PHOTO 2 CAPTION]",
+      photoRightDate: "[PHOTO 2 DATE/SUBTITLE]"
+    },
+    stampBadges: [
+      { label: "[SKILL BADGE 1]", iconType: "database" },
+      { label: "[SKILL BADGE 2]", iconType: "cpu" },
+      { label: "[SKILL BADGE 3]", iconType: "branch" },
+      { label: "[SKILL BADGE 4]", iconType: "chart" }
+    ],
+    contactSection: {
+      responseTimeNote: "[Response time: Within 24 hours. Open to full-time roles & freelance projects.]"
     },
     socials: [
       {
@@ -49,45 +68,44 @@ export const portfolioData: PortfolioData = {
 
   skills: [
     {
-      title: "Big Data & Distributed Computing",
+      title: "[Category 1 — e.g. Big Data & Distributed Computing]",
       skills: [
-        { name: "Apache Spark / PySpark", level: "Advanced" },
-        { name: "Apache Kafka", level: "Advanced" },
-        { name: "Hadoop / HDFS", level: "Intermediate" },
-        { name: "Apache Airflow", level: "Advanced" },
-        { name: "SQL & Query Tuning", level: "Expert" },
-        { name: "Snowflake / Redshift", level: "Intermediate" }
+        { name: "[Skill 1 — e.g. Apache Spark]", level: "Expert" },
+        { name: "[Skill 2 — e.g. Apache Kafka]", level: "Advanced" },
+        { name: "[Skill 3 — e.g. Hadoop / HDFS]", level: "Intermediate" },
+        { name: "[Skill 4 — e.g. Apache Airflow]", level: "Advanced" },
+        { name: "[Skill 5 — e.g. SQL & Query Tuning]", level: "Expert" },
+        { name: "[Skill 6 — e.g. Snowflake / Redshift]", level: "Intermediate" }
       ]
     },
     {
-      title: "Programming & Engineering Foundations",
+      title: "[Category 2 — e.g. Programming & Systems]",
       skills: [
-        { name: "Python", level: "Expert" },
-        { name: "Java / Scala", level: "Intermediate" },
-        { name: "C / C++ (Hardware & Systems)", level: "Advanced" },
-        { name: "SQL (PostgreSQL, MySQL)", level: "Expert" },
-        { name: "Bash & Linux Shell", level: "Advanced" },
-        { name: "TypeScript / Next.js", level: "Intermediate" }
+        { name: "[Skill 7 — e.g. Python]", level: "Expert" },
+        { name: "[Skill 8 — e.g. Java / Scala]", level: "Intermediate" },
+        { name: "[Skill 9 — e.g. C / C++ Systems]", level: "Advanced" },
+        { name: "[Skill 10 — e.g. SQL / PostgreSQL]", level: "Expert" },
+        { name: "[Skill 11 — e.g. Bash & Linux Shell]", level: "Advanced" },
+        { name: "[Skill 12 — e.g. TypeScript / Next.js]", level: "Intermediate" }
       ]
     },
     {
-      title: "Data Analytics & Machine Learning",
+      title: "[Category 3 — e.g. Data Analytics & Machine Learning]",
       skills: [
-        { name: "Pandas & NumPy", level: "Expert" },
-        { name: "Scikit-Learn", level: "Advanced" },
-        { name: "Data Cleaning & EDA", level: "Expert" },
-        { name: "Tableau & Power BI", level: "Advanced" },
-        { name: "Statistical Modeling", level: "Advanced" }
+        { name: "[Skill 13 — e.g. Pandas & NumPy]", level: "Expert" },
+        { name: "[Skill 14 — e.g. Scikit-Learn]", level: "Advanced" },
+        { name: "[Skill 15 — e.g. Data Cleaning & EDA]", level: "Expert" },
+        { name: "[Skill 16 — e.g. Tableau & Power BI]", level: "Advanced" },
+        { name: "[Skill 17 — e.g. Statistical Modeling]", level: "Advanced" }
       ]
     },
     {
-      title: "Cloud & DevOps Infrastructure",
+      title: "[Category 4 — e.g. Cloud & DevOps Infrastructure]",
       skills: [
-        { name: "AWS (S3, EMR, Glue, Lambda)", level: "Advanced" },
-        { name: "Docker & Containerization", level: "Advanced" },
-        { name: "Git & CI/CD Pipelines", level: "Advanced" },
-        { name: "Distributed System Design", level: "Advanced" },
-        { name: "Vercel & Cloud Deployments", level: "Intermediate" }
+        { name: "[Skill 18 — e.g. AWS (S3, EMR, Glue)]", level: "Advanced" },
+        { name: "[Skill 19 — e.g. Docker & Containers]", level: "Advanced" },
+        { name: "[Skill 20 — e.g. Git & CI/CD Pipelines]", level: "Advanced" },
+        { name: "[Skill 21 — e.g. Distributed System Design]", level: "Advanced" }
       ]
     }
   ],
@@ -156,28 +174,28 @@ export const portfolioData: PortfolioData = {
   education: [
     {
       id: "edu-1",
-      degree: "Bachelor of Science in Computer Engineering",
-      fieldOfStudy: "Specialization in Big Data Analytics",
-      institution: "[Your University / Institute Name]",
-      location: "[City, State / Country]",
-      startDate: "2021",
-      endDate: "2025",
-      gradeOrGpa: "[Your GPA / Honors / Dean's List]",
-      description: "Comprehensive curriculum combining computer hardware engineering, distributed software systems, algorithm optimization, and large-scale data analytics.",
+      degree: "[YOUR DEGREE, e.g. Bachelor of Science in Computer Engineering]",
+      fieldOfStudy: "[YOUR SPECIALIZATION, e.g. Specialization in Big Data Analytics]",
+      institution: "[YOUR UNIVERSITY / INSTITUTE NAME]",
+      location: "[CITY, STATE / COUNTRY]",
+      startDate: "[START YEAR, e.g. 2021]",
+      endDate: "[GRAD YEAR, e.g. 2025]",
+      gradeOrGpa: "[YOUR GPA / HONORS / DEAN'S LIST]",
+      description: "[Comprehensive curriculum combining computer hardware engineering, distributed software systems, algorithm optimization, and large-scale data analytics.]",
       coursework: [
-        "Big Data Systems & Cloud Architecture",
-        "Distributed Computing & Algorithms",
-        "Database Management Systems & SQL",
-        "Computer Organization & Architecture",
-        "Statistical Machine Learning",
-        "Data Structures & Algorithm Analysis",
-        "Operating Systems & Multithreading",
-        "Data Mining & Business Intelligence"
+        "[Big Data Systems & Cloud Architecture]",
+        "[Distributed Computing & Algorithms]",
+        "[Database Management Systems & SQL]",
+        "[Computer Organization & Architecture]",
+        "[Statistical Machine Learning]",
+        "[Data Structures & Algorithm Analysis]",
+        "[Operating Systems & Multithreading]",
+        "[Data Mining & Business Intelligence]"
       ],
       achievements: [
-        "Dean's Honor List for Academic Excellence",
-        "Lead Engineer — Senior Capstone Distributed Data Pipeline Project",
-        "Teaching Assistant / Peer Mentor for Computer Systems & Algorithms"
+        "[Dean's Honor List for Academic Excellence]",
+        "[Lead Engineer — Senior Capstone Distributed Data Pipeline Project]",
+        "[Teaching Assistant / Peer Mentor for Computer Systems & Algorithms]"
       ]
     }
   ],
@@ -185,49 +203,49 @@ export const portfolioData: PortfolioData = {
   certifications: [
     {
       id: "cert-1",
-      title: "AWS Certified Data Analytics / Solutions Architect",
-      issuer: "Amazon Web Services (AWS)",
-      issueDate: "2024",
-      expirationDate: "2027",
+      title: "[CERTIFICATION TITLE 1, e.g. AWS Certified Data Analytics / Solutions Architect]",
+      issuer: "[ISSUER 1, e.g. Amazon Web Services (AWS)]",
+      issueDate: "[YEAR, e.g. 2024]",
+      expirationDate: "[EXPIRATION YEAR, e.g. 2027]",
       credentialId: "[AWS-CERT-ID]",
       credentialUrl: "https://example.com/verify",
-      skills: ["AWS EMR", "AWS Glue", "S3 Lakehouse", "Redshift", "Cloud Security"]
+      skills: ["[AWS EMR]", "[AWS Glue]", "[S3 Lakehouse]", "[Redshift]", "[Cloud Security]"]
     },
     {
       id: "cert-2",
-      title: "Databricks Certified Associate Developer for Apache Spark",
-      issuer: "Databricks",
-      issueDate: "2024",
+      title: "[CERTIFICATION TITLE 2, e.g. Databricks Certified Associate Developer for Apache Spark]",
+      issuer: "[ISSUER 2, e.g. Databricks]",
+      issueDate: "[YEAR, e.g. 2024]",
       credentialId: "[DATABRICKS-ID]",
       credentialUrl: "https://example.com/verify",
-      skills: ["PySpark", "DataFrame API", "Spark Architecture", "Query Optimization"]
+      skills: ["[PySpark]", "[DataFrame API]", "[Spark Architecture]", "[Query Optimization]"]
     },
     {
       id: "cert-3",
-      title: "Google Cloud Big Data & Machine Learning Fundamentals",
-      issuer: "Google Cloud",
-      issueDate: "2023",
+      title: "[CERTIFICATION TITLE 3, e.g. Google Cloud Big Data & Machine Learning Fundamentals]",
+      issuer: "[ISSUER 3, e.g. Google Cloud]",
+      issueDate: "[YEAR, e.g. 2023]",
       credentialId: "[GCP-BIGDATA-ID]",
       credentialUrl: "https://example.com/verify",
-      skills: ["BigQuery", "Cloud Dataflow", "Cloud Pub/Sub", "Data Pipelines"]
+      skills: ["[BigQuery]", "[Cloud Dataflow]", "[Cloud Pub/Sub]", "[Data Pipelines]"]
     }
   ],
 
   experiences: [
     {
       id: "exp-1",
-      role: "Big Data & Analytics Engineering Intern",
-      company: "[Tech Enterprise / Data Lab Name]",
-      location: "[Remote / City]",
+      role: "[YOUR INTERNSHIP / ROLE TITLE, e.g. Big Data Engineering Intern]",
+      company: "[COMPANY / LAB NAME, e.g. Tech Studio / Enterprise]",
+      location: "[CITY / REMOTE]",
       type: "Internship",
-      startDate: "JUN 2024",
-      endDate: "AUG 2024",
+      startDate: "[START MONTH YEAR, e.g. JUN 2024]",
+      endDate: "[END MONTH YEAR, e.g. AUG 2024]",
       description: [
-        "Built and optimized distributed PySpark jobs processing over 2TB of daily operational telemetry.",
-        "Designed automated Airflow DAG workflows reducing scheduled ingestion lag from 4 hours to under 25 minutes.",
-        "Collaborated with data scientists and infrastructure engineers to validate schema integrity and data warehouse performance."
+        "[Describe an impactful project you built, e.g. Built and optimized distributed PySpark jobs processing over 2TB of daily operational telemetry.]",
+        "[Describe an improvement or system you designed, e.g. Designed automated Airflow DAG workflows reducing ingestion lag from 4 hours to under 25 minutes.]",
+        "[Describe cross-functional collaboration, e.g. Collaborated with data scientists and engineers to validate schema integrity and data warehouse performance.]"
       ],
-      technologies: ["Apache Spark", "Python", "Airflow", "PostgreSQL", "Docker", "Git"]
+      technologies: ["[Tech 1]", "[Tech 2]", "[Tech 3]", "[Tech 4]"]
     }
   ]
 };

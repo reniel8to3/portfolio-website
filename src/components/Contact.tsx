@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Mail, MapPin, Send, Check, Copy, ArrowUpRight, Stamp } from 'lucide-react';
+import { Mail, MapPin, Send, Check, Copy, ArrowUpRight } from 'lucide-react';
 import { portfolioData } from '@/data/portfolioData';
 
 export default function Contact() {
@@ -98,7 +98,7 @@ export default function Contact() {
 
               {/* Response Time Note */}
               <div className="p-3 bg-zinc-50 border border-zinc-200 rounded text-xs text-zinc-600 leading-relaxed font-mono">
-                Response time: Within 24 hours. Open to full-time roles &amp; freelance projects.
+                {personal.contactSection?.responseTimeNote || "[Response time: Within 24 hours. Open to full-time roles & freelance projects.]"}
               </div>
 
               {/* Social Channels */}
@@ -148,7 +148,7 @@ export default function Contact() {
                       required
                       value={formState.name}
                       onChange={(e) => setFormState({ ...formState, name: e.target.value })}
-                      placeholder="Jane Doe"
+                      placeholder="[Your Name]"
                       className="w-full px-3 py-2 bg-zinc-50 border-2 border-[#1f2328] text-xs font-medium text-[#1f2328] rounded focus:outline-none focus:bg-white focus:border-[#FE5D9F] transition-all"
                     />
                   </div>
@@ -163,7 +163,7 @@ export default function Contact() {
                       required
                       value={formState.email}
                       onChange={(e) => setFormState({ ...formState, email: e.target.value })}
-                      placeholder="jane@example.com"
+                      placeholder="[Your Email]"
                       className="w-full px-3 py-2 bg-zinc-50 border-2 border-[#1f2328] text-xs font-medium text-[#1f2328] rounded focus:outline-none focus:bg-white focus:border-[#FE5D9F] transition-all"
                     />
                   </div>
@@ -179,7 +179,7 @@ export default function Contact() {
                     required
                     value={formState.subject}
                     onChange={(e) => setFormState({ ...formState, subject: e.target.value })}
-                    placeholder="Project Inquiry / Opportunity"
+                    placeholder="[Subject]"
                     className="w-full px-3 py-2 bg-zinc-50 border-2 border-[#1f2328] text-xs font-medium text-[#1f2328] rounded focus:outline-none focus:bg-white focus:border-[#FE5D9F] transition-all"
                   />
                 </div>
@@ -194,7 +194,7 @@ export default function Contact() {
                     rows={4}
                     value={formState.message}
                     onChange={(e) => setFormState({ ...formState, message: e.target.value })}
-                    placeholder="Write your note here..."
+                    placeholder="[Write your message here...]"
                     className="w-full px-3 py-2 bg-zinc-50 border-2 border-[#1f2328] text-xs font-medium text-[#1f2328] rounded focus:outline-none focus:bg-white focus:border-[#FE5D9F] transition-all resize-none"
                   />
                 </div>

@@ -31,6 +31,11 @@ export default function Education() {
                   <h3 className="text-xl sm:text-2xl font-black text-[#1f2328]">
                     {item.degree}
                   </h3>
+                  {item.fieldOfStudy && (
+                    <div className="text-xs font-mono font-bold text-[#1f2328]/70 mt-0.5">
+                      {item.fieldOfStudy}
+                    </div>
+                  )}
                   <div className="text-sm font-bold text-[#FE5D9F] flex items-center gap-2 mt-1">
                     <span>{item.institution}</span>
                     {item.location && (
