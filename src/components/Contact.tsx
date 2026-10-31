@@ -148,7 +148,7 @@ export default function Contact() {
                       required
                       value={formState.name}
                       onChange={(e) => setFormState({ ...formState, name: e.target.value })}
-                      placeholder="[Your Name]"
+                      placeholder="Lorem Ipsum"
                       className="w-full px-3 py-2 bg-zinc-50 border-2 border-[#1f2328] text-xs font-medium text-[#1f2328] rounded focus:outline-none focus:bg-white focus:border-[#FE5D9F] transition-all"
                     />
                   </div>
@@ -163,7 +163,7 @@ export default function Contact() {
                       required
                       value={formState.email}
                       onChange={(e) => setFormState({ ...formState, email: e.target.value })}
-                      placeholder="[Your Email]"
+                      placeholder="lorem@example.com"
                       className="w-full px-3 py-2 bg-zinc-50 border-2 border-[#1f2328] text-xs font-medium text-[#1f2328] rounded focus:outline-none focus:bg-white focus:border-[#FE5D9F] transition-all"
                     />
                   </div>
@@ -179,7 +179,7 @@ export default function Contact() {
                     required
                     value={formState.subject}
                     onChange={(e) => setFormState({ ...formState, subject: e.target.value })}
-                    placeholder="[Subject]"
+                    placeholder="Lorem Ipsum Dolor"
                     className="w-full px-3 py-2 bg-zinc-50 border-2 border-[#1f2328] text-xs font-medium text-[#1f2328] rounded focus:outline-none focus:bg-white focus:border-[#FE5D9F] transition-all"
                   />
                 </div>
@@ -194,7 +194,7 @@ export default function Contact() {
                     rows={4}
                     value={formState.message}
                     onChange={(e) => setFormState({ ...formState, message: e.target.value })}
-                    placeholder="[Write your message here...]"
+                    placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
                     className="w-full px-3 py-2 bg-zinc-50 border-2 border-[#1f2328] text-xs font-medium text-[#1f2328] rounded focus:outline-none focus:bg-white focus:border-[#FE5D9F] transition-all resize-none"
                   />
                 </div>
