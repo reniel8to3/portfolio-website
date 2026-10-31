@@ -22,7 +22,7 @@ export default function Navbar() {
   const navLinks = [
     { name: 'HOME', href: '#', icon: <Star className="w-3.5 h-3.5 fill-current" /> },
     { name: 'ABOUT', href: '#about', icon: <User className="w-3.5 h-3.5" /> },
-    { name: 'CASE STUDY', href: '#projects', icon: <LayoutGrid className="w-3.5 h-3.5" /> },
+    { name: 'PROJECTS', href: '#projects', icon: <LayoutGrid className="w-3.5 h-3.5" /> },
     { name: 'LEARNING', href: '#education', icon: <GraduationCap className="w-3.5 h-3.5" /> },
     { name: 'CERTS', href: '#certifications', icon: <Award className="w-3.5 h-3.5" /> },
   ];

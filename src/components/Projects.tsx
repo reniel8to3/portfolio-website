@@ -44,7 +44,7 @@ export default function Projects() {
         <div className="mb-8 flex items-center justify-between">
           <div>
             <span className="font-handwriting text-2xl font-bold text-[#1f2328] -rotate-1 inline-block select-none">
-              selected case studies
+              selected projects
             </span>
             <h2 className="text-3xl font-black text-[#1f2328] tracking-tight uppercase">
               Big Data &amp; Systems Work
@@ -116,7 +116,7 @@ export default function Projects() {
                           rel="noopener noreferrer"
                           className={`inline-flex items-center gap-1.5 text-xs font-black tracking-wider uppercase ${theme.btnText}`}
                         >
-                          <span>VIEW CASE STUDY</span>
+                          <span>VIEW PROJECT</span>
                           <ArrowUpRight className="w-4 h-4" />
                         </a>
 
