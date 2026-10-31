@@ -13,7 +13,7 @@ import {
   X,
   CircleDot
 } from 'lucide-react';
-import { GithubIcon, LinkedinIcon, TwitterIcon } from '@/components/Icons';
+import { GithubIcon, LinkedinIcon } from '@/components/Icons';
 import { portfolioData } from '@/data/portfolioData';
 
 export default function Navbar() {
@@ -79,15 +79,6 @@ export default function Navbar() {
               aria-label="GitHub"
             >
               <GithubIcon className="w-3.5 h-3.5" />
-            </a>
-            <a
-              href="https://x.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-7 h-7 rounded-full bg-[#F4BBD3] border-2 border-[#1f2328] flex items-center justify-center text-[#1f2328] hover:scale-110 transition-transform shadow-xs"
-              aria-label="Twitter"
-            >
-              <TwitterIcon className="w-3 h-3" />
             </a>
           </div>
 
