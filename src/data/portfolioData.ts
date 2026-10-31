@@ -2,9 +2,9 @@ import { PortfolioData } from '@/types/portfolio';
 
 export const portfolioData: PortfolioData = {
   personal: {
-    name: "LOREM IPSUM",
-    role: "Lorem Ipsum Dolor",
-    specialization: "Consectetur Adipiscing",
+    name: "REI",
+    role: "Computer Engineer",
+    specialization: "Big Data Analytics",
     tagline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     shortBio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     heroStickers: {
@@ -19,7 +19,7 @@ export const portfolioData: PortfolioData = {
         "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
       ],
       location: "Lorem City, Ipsum Country",
-      email: "lorem.ipsum@example.com",
+      email: "renielalmariomalabo@gmail.com",
       availability: "LOREM IPSUM DOLOR SIT AMET",
       yearsOfExperience: "0+",
       projectsCompleted: "0+",
@@ -40,28 +40,16 @@ export const portfolioData: PortfolioData = {
     socials: [
       {
         name: "LinkedIn",
-        url: "https://linkedin.com",
+        url: "https://www.linkedin.com/in/renielalmariomalabo/",
         icon: "linkedin",
-        label: "linkedin.com/in/lorem-ipsum"
+        label: "linkedin.com/in/renielalmariomalabo"
       },
       {
         name: "GitHub",
-        url: "https://github.com",
+        url: "https://github.com/reniel8to3",
         icon: "github",
-        label: "github.com/lorem-ipsum"
+        label: "github.com/reniel8to3"
       },
-      {
-        name: "X (Twitter)",
-        url: "https://x.com",
-        icon: "twitter",
-        label: "@lorem_ipsum"
-      },
-      {
-        name: "Email",
-        url: "mailto:lorem.ipsum@example.com",
-        icon: "mail",
-        label: "lorem.ipsum@example.com"
-      }
     ],
     resumeUrl: "#resume"
   },
